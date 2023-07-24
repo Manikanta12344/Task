@@ -1,7 +1,8 @@
-package com.pst.Taskk;
+package task1;
 
-public class MatricesProgram51
+public class MatricesProgram51 
 {
+
 		public static void main(String[] args)
 		{
 			int a[][]= {{2,3},{1,2}};
@@ -14,12 +15,10 @@ public class MatricesProgram51
 				for(int j=0;j<2;j++)
 				{
 					c[i][j]=a[i][j]+b[i][j];
-					System.out.println(c[i][j]+" ");
+					System.out.print(c[i][j]+" ");
 					
 				}
 				System.out.println();
 			}
 		}
 	}
-
-
